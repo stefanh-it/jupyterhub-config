@@ -6,7 +6,7 @@ c.JupyterHub.bind_url = 'http://127.0.0.1:8000'
 
 #c = get_config()
 c.JupyterHub.log_level = 10
-c.Spawner.cmd = '/var/jupyterhub/jupytervenv/bin/jupyter-notebook'
+c.Spawner.cmd = ['jupyter-labhub']
 
 # Cookie Secret Files
 #c.JupyterHub.cookie_secret_file = 'jupyterhub_cookie_secret'

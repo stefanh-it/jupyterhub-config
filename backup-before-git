@@ -1,5 +1,5 @@
 #!bin/bash
 
 cp /etc/nginx/nginx.conf ./nginx.conf &&
-cp -r /etc/nginx/sites-available ./sites-availble &&
+rsync -r /etc/nginx/sites-available/ ./sites-availble/ &&
 cp /var/jupyterhub/jupytervenv/etc/jupyterhub_config.py  ./jupyterhub_config.py
