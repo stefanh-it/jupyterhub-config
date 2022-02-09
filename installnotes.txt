@@ -1,0 +1,8 @@
+sudo install jupyterhub
+(sudo install jupyterlab) if not available in site-packages
+sudo pacman -S r
+sudo R
+in R terminal: install.packages('IRkernel')
+               IRkernel::installspec(user = FALSE)
+               
+Done Jupyter-wise
